@@ -12,7 +12,7 @@ from transformers import (
     AutoImageProcessor, AutoModelForObjectDetection, pipeline
 )
 
-bot = Bot(token='6953190065:AAGN6-No7kafX77eIrcjPxUdmHESC5sddV0')
+bot = Bot(token='input your token here')
 dp = Dispatcher()
 
 label2text = {
